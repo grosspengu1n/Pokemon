@@ -8,12 +8,14 @@ void Ability::useAbility(Pokemon& attacker, Pokemon& target) {
         int effectiveDamage = damage;
 
         // resistance/crit
-        if (attacker.type == target.type) {
-            effectiveDamage *= 1;
+        if (attacker.type == PokeType::Fire && target.type == PokeType::Water) {
+            effectiveDamage *= 0.5;
         }
         else {
-            effectiveDamage *= 0.5; 
+            effectiveDamage *= 1;
         }
+
+
 
         target.life -= effectiveDamage;
 
