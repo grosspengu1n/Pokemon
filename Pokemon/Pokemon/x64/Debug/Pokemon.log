@@ -1,0 +1,7 @@
+﻿  ability.cpp
+C:\Users\ismai\Documents\GitHub\Pokemon\Pokemon\Pokemon\ability.cpp(15,32): warning C4244: *=: преобразование "double" в "int", возможна потеря данных
+  main.cpp
+  Pokemon.cpp
+  trainer.cpp
+  Создание кода...
+  Pokemon.vcxproj -> C:\Users\ismai\Documents\GitHub\Pokemon\Pokemon\x64\Debug\Pokemon.exe
